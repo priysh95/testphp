@@ -1,0 +1,14 @@
+Challenge Description:
+You will write code to complete a web service that allows students to submit their suggestions/feedback. The HTML page feedback.html will contain a form that submits to comments.php. After submission, comments.php will do some checks to validate the information submitted, and it will output a web page that either confirms the submission or informs the user to try submitting again.
+
+Task 1: Creating a Form
+This task involves creating an HTML from (such as feedback.html) that POSTs its submitted data to a PHP program on a server. The form should at least has a set of radio/checkbox button, 2 text input fields, 1 comment input field, and 1 - 2 buttons.
+
+Task 2: Displaying Input Data
+In this task, you will write the PHP page that will handle the submitted form data. Tell your feedback.html to POST data to a comments PHP page (such as comments.php). The comments.php page will receive the parameters from feedback.html and will output an HTML confirmation page.
+
+Task 3: Save the Form Data
+Modify your comments.php page to save the submitted data to the file comments.txt. Also change your page's output to show the complete contents of the file comments.txt to the user.
+
+Task 4: Basic Data Validation
+Update your comments.php file to verify that the user did not leave any fields blank when submitting the form. You can check whether a particular parameter has been passed using the PHP function isset. If the user has not filled in every field, show an error message instead of displaying their submitted data.
